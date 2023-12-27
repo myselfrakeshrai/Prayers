@@ -9,12 +9,12 @@ sudo hidden-eye
 ```
 ### CLONE
 ```
-git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+git clone https://github.com/DarkSecDevelopers/Prayers.git
 ```
 
 ### RUNNING (In Linux)
 ```
-chmod 777 HiddenEye
+chmod 777 Prayers
 ```
 
 ```
@@ -22,7 +22,7 @@ sudo apt install python3-pip
 ```
 
 ```
-cd HiddenEye
+cd Prayers
 ```
 
 ```
@@ -34,18 +34,18 @@ sudo pip3 install requests
 ```
 
 ```
-python3 HiddenEye.py
+python3 Prayers.py
 
 ```
    OR
 
 ```
-./HiddenEye.py    
+./Prayers.py    
 
 ```
 ### RUNNING (Arch Linux or Manjaro)
 ```
-chmod 777 HiddenEye
+chmod 777 Prayers
 ```
 
 ```
@@ -56,7 +56,7 @@ sudo pacman -S python-pip
 ```
 
 ```
-cd HiddenEye
+cd Prayers
 ```
 
 ```
@@ -64,13 +64,13 @@ sudo pip3 install -r requirements.txt
 ```
 
 ```
-sudo python3 HiddenEye.py
+sudo python3 Prayers.py
 
 ```
    OR
 
 ```
-sudo ./HiddenEye.py    
+sudo ./Prayers.py    
 
 ```
 ## FOR ANDROID USERS
@@ -96,16 +96,16 @@ sudo apt install python3 python3-pip unzip php git
 
 ```
 ```
-git clone https://github.com/DarkSecDevelopers/HiddenEye.git
+git clone https://github.com/DarkSecDevelopers/Prayers.git
 
 ```
 
 ```
-chmod 777 HiddenEye
+chmod 777 Prayers
 ```
 
 ```
-cd HiddenEye
+cd Prayers
 
 ```
 
@@ -115,7 +115,7 @@ pip3 install -r requirements.txt && pip3 install requests
 ```
 
 ```
-python3 HiddenEye.py
+python3 Prayers.py
 ```
 
 ### 2) INSTALLING IN (TERMUX APP)
@@ -136,11 +136,11 @@ pkg install git python php curl openssh grep
 ```
 
 ```
-git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git
+git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/Prayers.git
 ```
 
 ```
-chmod 777 HiddenEye
+chmod 777 Prayers
 ```
 
 ```
@@ -148,14 +148,14 @@ pip install requests
 ```
 
 ```
-cd HiddenEye
+cd Prayers
 ```
 ```
-python HiddenEye.py
+python Prayers.py
 
 or
 
-./HiddenEye.py
+./Prayers.py
 
 ```
 ### ONE LINE COMMAND TO INSTALL IN TERMUX(ANDROID). Just copy/paste this single command and hit Enter .. ALL DONE
@@ -171,6 +171,6 @@ After opening Copy and run this Single Command.
 
 ```
 ```
-pkg install git python php curl openssh grep && git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/HiddenEye.git && chmod 777 HiddenEye && cd HiddenEye && pip install -r requirements.txt && pip install requests && python HiddenEye.py
+pkg install git python php curl openssh grep && git clone -b Termux-Support-Branch https://github.com/DarkSecDevelopers/Prayers.git && chmod 777 Prayers && cd Prayers && pip install -r requirements.txt && pip install requests && python Prayers.py
 
 ```

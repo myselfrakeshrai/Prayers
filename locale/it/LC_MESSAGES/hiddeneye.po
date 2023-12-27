@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: hiddeneye\n"
+"Project-Id-Version: Prayers\n"
 "POT-Creation-Date: 2019-10-25 15:03+0200\n"
 "PO-Revision-Date: 2019-10-25 15:28+0200\n"
 "Last-Translator: Moltivie <major2015usa@gmail.com>\n"
@@ -108,8 +108,8 @@ msgstr ""
 
 #: Actions.py:153
 #, python-brace-format
-msgid "{0}[{1}*{0}]{1} HiddenEye is Opening. Please Wait...{2}%"
-msgstr "{0}[{1}*{0}]{1} HiddenEye sta caricando. Attendere...{2}%"
+msgid "{0}[{1}*{0}]{1} Prayers is Opening. Please Wait...{2}%"
+msgstr "{0}[{1}*{0}]{1} Prayers sta caricando. Attendere...{2}%"
 
 #: Actions.py:157
 #, python-brace-format
@@ -117,12 +117,12 @@ msgid ""
 "\n"
 "{2}[{1}!{2}]{1} Do you agree to use this tool for educational purposes only? "
 "({2}y{1}/{0}n{1})\n"
-"{2}HiddenEye >>> {1}"
+"{2}Prayers >>> {1}"
 msgstr ""
 "\n"
 "{2}[{1}!{2}]{1} Accetti di utilizzare questo strumento solo a fini "
 "educativi? ({2}y{1}/{0}n{1})\n"
-"{2}HiddenEye >>> {1}"
+"{2}Prayers >>> {1}"
 
 #: Actions.py:159
 #, python-brace-format
@@ -175,7 +175,7 @@ msgid ""
 "\n"
 " {0}[{1}15{0}]{1} iCloud\n"
 "\n"
-"{0}HiddenEye >>>  {1}"
+"{0}Prayers >>>  {1}"
 msgstr ""
 "\n"
 "SELEZIONA UN TIPO DI ATTACCO ALLA VITTIMA:\n"
@@ -210,7 +210,7 @@ msgstr ""
 "\n"
 " {0}[{1}15{0}]{1} iCloud\n"
 "\n"
-"{0}HiddenEye >>>  {1}"
+"{0}Prayers >>>  {1}"
 
 #: Actions.py:164
 #, python-brace-format
@@ -227,7 +227,7 @@ msgid ""
 "\n"
 " {0}[{1}4{0}]{1} Facebook Phising-Messenger Credentials(messenger_mode) \n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 msgstr ""
 "\n"
 "Operazione:\n"
@@ -243,7 +243,7 @@ msgstr ""
 " {0}[{1}4{0}]{1} Facebook Phishing-Messenger "
 "Credenziali(modalità_messenger) \n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 
 #: Actions.py:168
 #, python-brace-format
@@ -257,7 +257,7 @@ msgid ""
 "\n"
 " {0}[{1}3{0}]{1} New Google Web\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 msgstr ""
 "\n"
 "Operazione:\n"
@@ -269,7 +269,7 @@ msgstr ""
 "\n"
 " {0}[{1}3{0}]{1} \"New\" Google Web\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 
 #: Actions.py:192
 #, python-brace-format
@@ -282,7 +282,7 @@ msgid ""
 " {0}[{1}2{0}]{1} Instagram Autoliker Phising (After submit redirects to "
 "original autoliker)\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 msgstr ""
 "\n"
 "Operazione:\n"
@@ -292,7 +292,7 @@ msgstr ""
 " {0}[{1}2{0}]{1} Instagram Autoliker Phising (Dopo l'invio si verrà "
 "reindirizzati all'autoliker vero e proprio)\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 
 #: Actions.py:216
 #, python-brace-format
@@ -304,7 +304,7 @@ msgid ""
 "\n"
 " {0}[{1}2{0}]{1} Advanced Phishing(poll_mode/login_with)\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 msgstr ""
 "\n"
 "Operazione:\n"
@@ -313,7 +313,7 @@ msgstr ""
 "\n"
 " {0}[{1}2{0}]{1} Phishing Avanzato (modalità pool/accedi_a)\n"
 "\n"
-"{0}HiddenEye >>> {1}"
+"{0}Prayers >>> {1}"
 
 #: Actions.py:226
 #, python-brace-format
@@ -373,7 +373,7 @@ msgid ""
 "\n"
 "                  {3}HIDDEN EYE {3}BY: DARKSEC TEAM\n"
 "         {0}THANKS FOR USING IT. HELP US TO MAKE IT MORE USEFUL\n"
-"              {3}https://github.com/DarkSecDevelopers/HiddenEye     "
+"              {3}https://github.com/DarkSecDevelopers/Prayers     "
 msgstr ""
 "\n"
 "                     {1}_....~~~~=====~~~~...._\n"
@@ -386,7 +386,7 @@ msgstr ""
 "\n"
 "                  {3}HIDDEN EYE {3}BY: DARKSEC TEAM\n"
 "         {0}GRAZIE PER AVERLO UTILIZZATO. AIUTAMI A RENDERLO PIÙ EFFICACE\n"
-"              {3}https://github.com/DarkSecDevelopers/HiddenEye     "
+"              {3}https://github.com/DarkSecDevelopers/Prayers     "
 
 #: Actions.py:281
 #, python-brace-format

